@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+graphene = "*"
+chemist = "*"
+alembic = "*"
+setproctitle = "*"
+
+[dev-packages]
+coverage = "*"
+"flake8" = "*"
+mccabe = "*"
+nose = "*"
+rednose = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sure = "*"
+
+[requires]
+python_version = "3.6"
